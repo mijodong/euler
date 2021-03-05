@@ -16,9 +16,9 @@ palindrome = 0
 
 for i1 in range(100, 999):
     for i2 in range(100, 999):
-        quotient = i1 * i2
+        product = i1 * i2
         if is_palindrome(quotient):
-            if quotient > palindrome:
-                palindrome = quotient
+            if product > palindrome:
+                palindrome = product
 
 print(palindrome)
